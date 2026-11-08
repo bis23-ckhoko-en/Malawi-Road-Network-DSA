@@ -41,15 +41,16 @@ Kruskal's algorithm is used to find the Minimum Spanning Tree, connecting all to
 - Generates a Minimum Spanning Tree.
 - Handles invalid inputs and file errors.
 
+
 ## 6. Project Files
 
-- `malawi_roads.cpp` – Main C++ source code.
-- `malawi_roads.txt` – Road network data containing towns and distances.
+- `malawi_roads.cpp` – Main C++ source code containing the road network data and algorithms.
 - `README.md` – Project documentation.
+
 
 ## 7. How to Compile and Run
 
-Make sure both `malawi_roads.cpp` and `malawi_roads.txt` are in the correct project directory.
+No external data file is required because the road network data is stored directly in the C++ program.
 
 Compile using:
 
@@ -57,16 +58,16 @@ Compile using:
 g++ -std=c++17 malawi_roads.cpp -o malawi_roads
 ```
 
-Run using:
-
-```bash
-./malawi_roads
-```
-
-On Windows, run:
+Run on Windows:
 
 ```bash
 malawi_roads.exe
+```
+
+On Linux:
+
+```bash
+./malawi_roads
 ```
 
 ## 8. Data Format
